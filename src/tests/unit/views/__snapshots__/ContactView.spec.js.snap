@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContactView > El HTML del componente se mantiene durante las pruebas 1`] = `"<h1>Contact View</h1>"`;

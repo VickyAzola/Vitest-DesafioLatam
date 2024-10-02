@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomeView > El HTML del componente se mantiene durante las pruebas 1`] = `
+"<div class="home">
+  <h1>Home View</h1>
+  <div data-v-148b760b="" class="posts">
+    <h1 data-v-148b760b="">Vista de Posts</h1>
+    <ul data-v-148b760b="">
+      <li data-v-148b760b="">Post 1</li>
+      <li data-v-148b760b="">Post 2</li>
+      <li data-v-148b760b="">Post 3</li>
+      <li data-v-148b760b="">Post 4</li>
+    </ul>
+  </div>
+</div>"
+`;
