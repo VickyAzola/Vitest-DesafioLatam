@@ -1,41 +1,60 @@
-# vue-project
+# Aplicación Vue.js con Pruebas de Snapshot
 
-This template should help get you started developing with Vue 3 in Vite.
+## Tabla de Contenidos
 
-## Recommended IDE Setup
+- [Descripción](#descripción)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Autores](#autores)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Descripción
 
-## Customize configuration
+Esta es una aplicación sencilla desarrollada en Vue.js que implementa rutas para varias vistas, como Home, Posts, About y Contact. Además, incorpora pruebas unitarias para estas vistas utilizando **Vitest** y **Vue Test Utils**, con pruebas de snapshot para garantizar la integridad de la estructura HTML.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Tecnologías Utilizadas
 
-## Project Setup
+- **HTML5**: Para la estructura del sitio web.
+- **CSS**: Para el diseño y la presentación del sitio web.
+- **Vue.js**: Framework de JavaScript para construir interfaces de usuario.
+- **Vue Router**: Para manejar las rutas de la aplicación de manera dinámica.
+- **Vitest**: Para escribir y ejecutar las pruebas unitarias.
+- **Vue Test Utils**: Librería oficial para realizar pruebas unitarias en componentes de Vue.js
 
-```sh
-npm install
-```
+## Instalación
 
-### Compile and Hot-Reload for Development
+Sigue los siguientes pasos para instalar y ejecutar el proyecto en tu entorno local:
 
-```sh
-npm run dev
-```
+1. Clona el repositorio:
 
-### Compile and Minify for Production
+    ```bash
+    git clone https://github.com/VickyAzola/Vitest-DesafioLatam.git
+    ```
 
-```sh
-npm run build
-```
+2. Navega al directorio del proyecto:
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+    ```bash
+    cd Vitest-DesafioLatam
+    ```
 
-```sh
-npm run test:unit
-```
+3. Instala las dependencias necesarias:
 
-### Lint with [ESLint](https://eslint.org/)
+    ```bash
+    npm install
+    ```
+    
+4. Ejecuta las pruebas unitarias:
+   ```
+   npm run test:unit
+   ```
+   
+5. Inicia el servidor de desarrollo:
 
-```sh
-npm run lint
-```
+    ```bash
+    npm run dev
+    ```
+
+6. Abre el enlace 'Local' en tu navegador para ver la aplicación en funcionamiento.
+
+## Autores
+
+- **Desarrollador Principal**: [Victoria Azola Silva](https://github.com/VickyAzola) - Responsable del desarrollo del código.
